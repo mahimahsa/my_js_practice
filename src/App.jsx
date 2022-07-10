@@ -12,6 +12,11 @@ function App() {
             count is: {count}
           </button>
         </p>
+        <p>
+          <button type="button" onClick={() => setCount((count) => count + 1)}>
+            count is: {count}
+          </button>
+        </p>
 
       </header>
     </div>
